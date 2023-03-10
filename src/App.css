@@ -1,0 +1,100 @@
+
+body {
+    background-color: wheat;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-bar {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    background-color: rgb(248, 182, 100);
+}
+.nav-list {
+    display: flex;
+}
+
+.nav-list > li {
+    margin-right: 10px;
+    list-style: none;
+}
+
+.nav-list > li a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner-image {
+    width: 100%;
+    max-height: 10%;
+}
+
+.main-body {
+    margin-left: 10px;
+}
+
+
+.main-body h2, 
+.main-body h4, 
+.main-body h5,
+.buttons {
+    text-align: center;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.email-button {
+    margin-right: 10px;
+}
+
+.email-button,
+.linkedin-button {
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.about-section,
+.interests-section {
+    max-width: fit-content;
+}
+
+footer {
+    background-color: rgb(248, 182, 100);
+    padding: 5px;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer .social-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .social-links > li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+footer .social-links > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.social-links img {
+    width: 20px;
+    margin-right: 2px;
+    display: flex;
+}
